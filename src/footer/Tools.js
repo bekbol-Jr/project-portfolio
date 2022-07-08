@@ -10,7 +10,6 @@ import icon8 from "../img/icon8.png"
 import icon9 from "../img/icon9.png"
 import icon10 from "../img/icon10.png"
 import icon11 from "../img/icon11.png"
-import img2 from "../img/Rectangle 12.png";
 
 
 const Tools = () => {
