@@ -10,5 +10,6 @@
   margin: 0 auto;
 }
 .boxes{
-  @extend %box
+  width: 100px;
+  height: 100px;
 }
