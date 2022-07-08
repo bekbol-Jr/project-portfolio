@@ -1,15 +1,4 @@
+@import "../src/scssFiles/variables";
+@import "../src/scssFiles/reset";
+@import "../src/scssFiles/BekbolVariables";
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container{
-  width: 1170px;
-  margin: 0 auto;
-}
-.boxes{
-  width: 100px;
-  height: 100px;
-}

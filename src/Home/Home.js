@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from "../header/Header";
+import Portfolio from "../footer/Portfolio";
+import OutTeam from "../footer/OutTeam";
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header/>
+            <Portfolio/>
+            <OutTeam/>
+        </>
     );
 };
 
