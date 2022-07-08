@@ -21,3 +21,11 @@ a, a:hover{
 button , input{
   outline: none;
 }
+
+%description{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(177, 2, 193, 0.5);
+}

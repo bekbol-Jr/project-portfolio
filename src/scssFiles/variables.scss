@@ -33,11 +33,7 @@
       }
 
       p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        color: rgba(177, 2, 193, 0.5);
+        @extend %description
       }
     }
 
@@ -67,6 +63,96 @@
           color: #FFFFFF;
         }
       }
+    }
+
+  }
+}
+
+
+
+#team{
+  padding: 30px 0;
+  .team--general{
+
+    &__text {
+      padding-top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      margin-bottom: 45px;
+
+      &--one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          width: 47px;
+          border: 2px solid rgba(177, 2, 193, 0.5);
+        }
+
+        h1 {
+          padding-left: 24px;
+          font-family: 'Orbitron', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+
+      }
+
+      p {
+        @extend %description
+      }
+    }
+
+    &__gen{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &--block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 253px;
+        height: 371px;
+        background: linear-gradient(154.9deg, rgba(255, 255, 255, 0.05) 1.1%, rgba(255, 255, 255, 0.023) 108.49%);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+
+        div{
+
+        }
+
+        &--text{
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          flex-direction: column;
+          h3{
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            color: #FFFFFF;
+          }
+          h2{
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+
+          }
+        }
+
+      }
+
     }
 
   }

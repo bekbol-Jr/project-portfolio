@@ -20,6 +20,63 @@ const OutTeam = () => {
                     </div>
 
 
+                    <div className="team--general__gen">
+                        <div className="team--general__gen--block">
+                            <div></div>
+
+                            <div className="team--general__block--text">
+                                <h3>
+                                    Aizhamal.Rakhatbek
+                                </h3>
+                                <h2>
+                                    UX/UI Designer
+                                </h2>
+                            </div>
+
+                        </div>
+                        <div className="team--general__gen--block">
+                            <div></div>
+
+                            <div className="team--general__block--text">
+                                <h3>
+                                    Aizhamal.Rakhatbek
+                                </h3>
+                                <h2>
+                                    UX/UI Designer
+                                </h2>
+                            </div>
+
+                        </div>
+                        <div className="team--general__gen--block">
+                            <div></div>
+
+                            <div className="team--general__block--text">
+                                <h3>
+                                    Aizhamal.Rakhatbek
+                                </h3>
+                                <h2>
+                                    UX/UI Designer
+                                </h2>
+                            </div>
+
+                        </div>
+                        <div className="team--general__gen--block">
+                            <div></div>
+
+                            <div className="team--general__block--text">
+                                <h3>
+                                    Aizhamal.Rakhatbek
+                                </h3>
+                                <h2>
+                                    UX/UI Designer
+                                </h2>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
                 </div>
             </div>
         </section>
