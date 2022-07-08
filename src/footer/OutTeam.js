@@ -24,7 +24,7 @@ const OutTeam = () => {
                         <div className="team--general__gen--block">
                             <div></div>
 
-                            <div className="team--general__block--text">
+                            <div className="team--general__gen--block__text">
                                 <h3>
                                     Aizhamal.Rakhatbek
                                 </h3>
@@ -37,7 +37,7 @@ const OutTeam = () => {
                         <div className="team--general__gen--block">
                             <div></div>
 
-                            <div className="team--general__block--text">
+                            <div className="team--general__gen--block__text">
                                 <h3>
                                     Aizhamal.Rakhatbek
                                 </h3>
@@ -50,7 +50,7 @@ const OutTeam = () => {
                         <div className="team--general__gen--block">
                             <div></div>
 
-                            <div className="team--general__block--text">
+                            <div className="team--general__gen--block__text">
                                 <h3>
                                     Aizhamal.Rakhatbek
                                 </h3>
@@ -63,7 +63,7 @@ const OutTeam = () => {
                         <div className="team--general__gen--block">
                             <div></div>
 
-                            <div className="team--general__block--text">
+                            <div className="team--general__gen--block__text">
                                 <h3>
                                     Aizhamal.Rakhatbek
                                 </h3>
@@ -73,6 +73,8 @@ const OutTeam = () => {
                             </div>
 
                         </div>
+
+
 
 
                     </div>

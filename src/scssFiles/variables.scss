@@ -129,7 +129,7 @@
 
         }
 
-        &--text{
+        &__text{
           display: flex;
           justify-content: center;
           align-items: start;
@@ -140,6 +140,7 @@
             font-weight: 500;
             font-size: 15px;
             color: #FFFFFF;
+            margin-bottom: 10px;
           }
           h2{
             font-family: 'Montserrat',sans-serif;
