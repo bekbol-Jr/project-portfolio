@@ -1,6 +1,7 @@
-#services{
+#services {
   padding: 30px 0;
-  .services--general{
+
+  .services--general {
     &__text {
       display: flex;
       justify-content: center;
@@ -35,37 +36,41 @@
       }
     }
 
-    &__lorem{
+    &__lorem {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      &--block{
+
+      &--block {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        img{
+        img {
           width: 166px;
           height: 166px;
         }
-        &__text{
+
+        &__text {
           display: flex;
           justify-content: center;
           align-items: start;
           flex-direction: column;
-          h1{
-            font-family: 'Montserrat',sans-serif;
+
+          h1 {
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             color: #FFFFFF;
             margin-bottom: 20px;
           }
-          p{
+
+          p {
             width: 348px;
             height: 57px;
-            font-family: 'Montserrat',sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -128,9 +133,11 @@
 
       div {
         margin-bottom: 30px;
-        img{
+
+        img {
           width: 95%;
         }
+
         h3 {
           padding-top: 13px;
           font-family: 'Montserrat', sans-serif;
@@ -154,9 +161,10 @@
   }
 }
 
-#team{
+#team {
   padding: 30px 0;
-  .team--general{
+
+  .team--general {
 
     &__text {
       padding-top: 150px;
@@ -193,11 +201,12 @@
       }
     }
 
-    &__gen{
+    &__gen {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      &--block{
+
+      &--block {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -209,25 +218,27 @@
         backdrop-filter: blur(10px);
         border-radius: 8px;
 
-        div{
+        div {
 
         }
 
-        &__text{
+        &__text {
           display: flex;
           justify-content: center;
           align-items: start;
           flex-direction: column;
-          h3{
-            font-family: 'Montserrat',sans-serif;
+
+          h3 {
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 15px;
             color: #FFFFFF;
             margin-bottom: 10px;
           }
-          h2{
-            font-family: 'Montserrat',sans-serif;
+
+          h2 {
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -243,9 +254,10 @@
   }
 }
 
-#tools{
+#tools {
   padding: 30px 0;
-  .tools--general{
+
+  .tools--general {
 
     &__text {
       padding-top: 150px;
@@ -280,14 +292,14 @@
 
     }
 
-    &__icon{
+    &__icon {
       padding-top: 66px;
       display: flex;
       justify-content: start;
       align-items: center;
       flex-wrap: wrap;
 
-      &--block{
+      &--block {
         margin-left: 19.8px;
         margin-bottom: 66px;
         position: relative;
@@ -296,26 +308,31 @@
         background: rgba(95, 166, 192, 0.15);
         backdrop-filter: blur(10px);
         border-radius: 5px;
-        &__img{
+
+        &__img {
           position: absolute;
           top: -75px;
         }
-        &__two{
+
+        &__two {
           position: absolute;
           top: -50px;
           left: 1px;
         }
-        div{
+
+        div {
           display: flex;
           justify-content: center;
           align-items: center;
-          img{
+
+          img {
             position: absolute;
             bottom: 9px;
           }
-          h1{
+
+          h1 {
             padding-top: 5.5rem;
-            font-family: 'Orbitron',sans-serif;
+            font-family: 'Orbitron', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 18px;
@@ -331,40 +348,69 @@
 
 }
 
-#contact{
-  .contact--general{
-    &__text {
-      padding-top: 150px;
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      flex-direction: column;
-      margin-bottom: 45px;
+#contact {
+  padding: 30px 0;
+
+  .contact--general {
+
+    &__block {
 
       &--one {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        &__text {
+          padding-top: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          flex-direction: column;
+          margin-bottom: 45px;
 
-        div {
-          width: 47px;
-          border: 2px solid rgba(177, 2, 193, 0.5);
+          &--one {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div {
+              width: 47px;
+              border: 2px solid rgba(177, 2, 193, 0.5);
+            }
+
+            h1 {
+              padding-left: 24px;
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 28px;
+              text-transform: uppercase;
+              color: #FFFFFF;
+            }
+
+          }
+
+
         }
 
-        h1 {
-          padding-left: 24px;
-          font-family: 'Orbitron', sans-serif;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 28px;
-          text-transform: uppercase;
-          color: #FFFFFF;
-        }
+        &__icon {
+          div{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 25px;
+            a{
+              padding-left: 20px;
+              font-family: 'Orbitron',sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
 
+            }
+          }
+        }
       }
 
-
     }
+
 
   }
 }
