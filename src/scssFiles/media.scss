@@ -1,7 +1,7 @@
-@media (max-height: 1440px) {
+@media (max-width: 1440px) {
 
   .container {
-    width: 85%;
+    width: 90%;
   }
 
 }
@@ -30,9 +30,7 @@
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: 90%;
-  }
+
 
 
   #team {
