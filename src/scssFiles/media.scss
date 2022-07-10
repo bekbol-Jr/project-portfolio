@@ -1,0 +1,316 @@
+@media (max-height: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  #portfolio {
+    .portfolio--general {
+      &__img {
+        justify-content: center;
+      }
+    }
+  }
+
+  #tools {
+    .tools--general {
+      &__icon {
+        &--items {
+          margin-left: 23.5%;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+
+  #team {
+    .team--general {
+      &__gen {
+        flex-wrap: wrap;
+
+        &--block {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  #tools {
+    .tools--general {
+      &__icon {
+
+        &--img {
+          img {
+            width: 90%;
+            height: 90%;
+            padding-bottom: 210px;
+          }
+        }
+
+        &--items {
+
+          margin-left: 23.5%;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+  #team {
+    .team--general {
+      &__gen {
+        justify-content: space-around;
+      }
+    }
+  }
+
+  #tools {
+    .tools--general {
+      &__icon {
+        &--img {
+          img {
+            position: relative;
+            right: 90px;
+          }
+        }
+
+        &--items {
+
+          margin-left: 19%;
+
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 557px) {
+
+  #portfolio {
+    .portfolio--general {
+      &__text {
+        align-items: center;
+        padding-top: 0;
+
+        &--one {
+          margin-bottom: 7px;
+
+          div {
+            border: 2px solid rgba(177, 2, 193, 0.5);
+            transform: rotate(-90deg);
+          }
+
+          h1 {
+            padding-left: 0;
+          }
+        }
+      }
+
+      &__img {
+        div {
+          img {
+            width: 90%;
+            height: 90%;
+          }
+        }
+      }
+    }
+  }
+
+  #team {
+    .team--general {
+
+      &__text {
+        align-items: center;
+        padding-top: 0;
+
+        &--one {
+          margin-bottom: 7px;
+
+          div {
+            border: 1.75038px solid rgba(177, 2, 193, 0.5);
+            transform: rotate(-90deg);
+          }
+
+          h1 {
+            padding-left: 0;
+          }
+        }
+      }
+
+
+    }
+  }
+
+
+  #tools {
+    .tools--general {
+
+      &__text {
+        align-items: center;
+        padding-top: 0;
+
+        &--one {
+
+          div {
+            border: 1.75038px solid rgba(177, 2, 193, 0.5);
+            transform: rotate(-90deg);
+          }
+
+          h1 {
+            padding-left: 0;
+          }
+        }
+      }
+
+      &__icon {
+        padding-top: 20px;
+
+        &--img {
+          img {
+            bottom: 7.5rem;
+            width: 250px;
+            position: relative;
+            height: 90%;
+            right: 90px;
+
+          }
+        }
+
+        &--items {
+
+          padding-top: 20px;
+          margin-left: 10%;
+
+
+        }
+      }
+
+
+    }
+  }
+
+
+}
+
+@media (max-width: 451px) {
+
+  #tools {
+    .tools--general {
+
+      &__text {
+        align-items: center;
+        padding-top: 0;
+
+        &--one {
+
+          div {
+            border: 1.75038px solid rgba(177, 2, 193, 0.5);
+            transform: rotate(-90deg);
+          }
+
+          h1 {
+            padding-left: 0;
+          }
+        }
+      }
+
+      &__icon {
+
+        &--img {
+          img {
+            width: 250px;
+            height: 90%;
+            right: 100px;
+            padding: 0 0;
+            bottom: 20rem;
+          }
+        }
+
+        &--items {
+
+          margin-left: 8.3%;
+          padding-top: 20px;
+
+        }
+
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: 425px) {
+
+  #tools {
+    .tools--general {
+
+
+      &__icon {
+
+        &--img {
+          img {
+            bottom: 25.5rem;
+          }
+        }
+
+
+      }
+    }
+
+
+  }
+
+}
+
+@media (max-width: 415px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 320px) {
+
+  #tools {
+    .tools--general {
+
+
+      &__icon {
+
+        &--img {
+          img {
+            bottom: 31rem;
+          }
+        }
+
+
+      }
+    }
+
+
+  }
+
+}
