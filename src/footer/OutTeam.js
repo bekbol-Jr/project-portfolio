@@ -19,8 +19,8 @@ const OutTeam = () => {
 
                     </div>
 
-
                     <div className="team--general__gen">
+
                         <div className="team--general__gen--block">
                             <div></div>
 
@@ -73,9 +73,6 @@ const OutTeam = () => {
                             </div>
 
                         </div>
-
-
-
 
                     </div>
 
