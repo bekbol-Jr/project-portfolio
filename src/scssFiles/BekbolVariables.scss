@@ -104,3 +104,178 @@
     top: -10%;
   }
 }
+
+//----HERO----//
+
+
+//----ABOUT_US-----//
+
+#about-us{
+  margin: 20% 0 10% 0;
+}
+.about-us{
+  &--titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--theme{
+      display: flex;
+      flex-direction: column;
+      &--title{
+        @extend %theme;
+        &:before{
+          @extend %before-theme;
+        }
+      }
+      &--subtitle{
+        @extend %description;
+        margin: 10px 0;
+      }
+    }
+    &--more{
+      @extend %description;
+    }
+  }
+
+  &--images{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    &--team-work{
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      z-index: 0;
+      img{
+        transition: .3s;
+        z-index: 0;
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+      &--titles{
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+        padding: 0 0 20px 20px;
+        transform: translateY(70px);
+        transition: .3s;
+        h3{
+          @extend %description;
+          color: white;
+          font-size: 20px;
+        }
+        p{
+          @extend %description;
+          color: white;
+          font-weight: 300;
+          font-size: .8em;
+        }
+      }
+    }
+    &:hover .img-title{
+      transform: translateY(0);
+    }
+
+    &--group{
+
+      &--1{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        img{
+          transition: .3s;
+          &:hover{
+            transform: scale(1.2);
+          }
+        }
+        &--titles{
+          position: absolute;
+          bottom: 0;
+          z-index: 2;
+          padding: 0 0 20px 20px;
+          h3{
+            @extend %description;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          p{
+            @extend %description;
+            color: white;
+            font-weight: 300;
+            font-size: .8em;
+            margin: 3px 0;
+          }
+
+        }
+      }
+
+      &--2{
+        margin-top: 15px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        img{
+          transition: .3s;
+          &:hover{
+            transform: scale(1.2);
+          }
+        }
+        &--titles{
+          position: absolute;
+          bottom: 0;
+          z-index: 3;
+          padding: 0 0 20px 20px;
+          h3{
+            @extend %description;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          p{
+            @extend %description;
+            color: white;
+            font-weight: 300;
+            font-size: .8em;
+            margin: 3px 0;
+          }
+
+        }
+      }
+    }
+  }
+
+  &--descriptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--items{
+      h4{
+        @extend %description;
+        color: white;
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+      p{
+        @extend %description;
+        color: white;
+        font-size: .8em;
+        font-weight: 300;
+        margin-top: 10px;
+        line-height: 20px;
+      }
+    }
+
+    &--border{
+      width: 3px;
+      height: 60px;
+      background: #5D0965;
+      margin: 0 10%;
+    }
+  }
+}
+
+
+//----ABOUT_US-----//

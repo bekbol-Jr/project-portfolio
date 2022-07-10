@@ -17,7 +17,7 @@ a, a:hover{
 }
 
 .container{
-  width: 1040px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -38,4 +38,25 @@ button , input{
   font-size: 38px;
   line-height: 50px;
   color: white;
+}
+
+%theme{
+  padding-left: 28%;
+  font-family: 'Orbitron', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+}
+
+%before-theme{
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 5px;
+  background: rgba(172, 11, 184, 0.5);
+  left: 0;
+  top: 50%;
 }
