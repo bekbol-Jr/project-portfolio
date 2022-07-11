@@ -90,11 +90,11 @@ const Contact = () => {
                             <div className="contact--general__gen--two__gen">
 
                                 <div>
-                                    <input type="text"/>
+                                    <input type="name" placeholder="Your name..."/>
                                 </div>
 
                                <div>
-                                   <input type="text"/>
+                                   <input type="email"  placeholder="Your email..."/>
                                </div>
 
 
@@ -102,11 +102,11 @@ const Contact = () => {
                             </div>
 
                             <div className="contact--general__gen--two__in">
-                                <input type="text"/>
+                                <input type="text"  placeholder="Subject..."/>
                             </div>
 
                             <div className="contact--general__gen--two__input">
-                                <input type="text"/>
+                                <textarea name="" cols="79" rows="10" placeholder="Mesage..."></textarea>
                             </div>
 
                         </div>
