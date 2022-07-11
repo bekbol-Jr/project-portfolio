@@ -106,7 +106,12 @@ const Contact = () => {
                             </div>
 
                             <div className="contact--general__gen--two__input">
-                                <textarea name="" cols="79" rows="10" placeholder="Mesage..."></textarea>
+                                <textarea name="" cols="64" rows="10" placeholder="Mesage..."></textarea>
+                            </div>
+
+
+                            <div className="contact--general__gen--two__btn">
+                                <button>Submit</button>
                             </div>
 
                         </div>

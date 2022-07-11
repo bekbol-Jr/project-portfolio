@@ -405,6 +405,7 @@
             padding-right: 20px;
 
             input {
+              font-family: 'Orbitron',sans-serif;
               color: #FFFFFF;
               font-size: 16px;
               width: 372px;
@@ -412,15 +413,16 @@
               padding-left: 20px;
               padding-right: 20px;
               background: rgba(255, 255, 255, 0.1);
-              opacity: 0.5;
               border-radius: 5px;
               margin-bottom: 22px;
+              opacity: .5;
             }
           }
         }
 
         &__in {
           input {
+            font-family: 'Orbitron',sans-serif;
             color: #FFFFFF;
             font-size: 16px;
             width: 768px;
@@ -428,24 +430,51 @@
             padding-right: 20px;
             padding-left: 20px;
             background: rgba(255, 255, 255, 0.1);
-            opacity: 0.5;
             border-radius: 5px;
             margin-bottom: 22px;
+            opacity: .5;
           }
         }
 
         &__input {
           textarea {
+            font-family: 'Orbitron',sans-serif;
             padding-right: 20px;
             padding-top: 10px;
             color: #FFFFFF;
             font-size: 16px;
             padding-left: 20px;
             background: rgba(255, 255, 255, 0.1);
-            opacity: 0.5;
             border-radius: 5px;
             outline: none;
+            opacity: .5;
           }
+        }
+
+        &__btn{
+          padding-top: 45px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          button{
+            padding: 12px 60px;
+            background: #9602A4;
+            border-radius: 4px;
+            font-family: 'Orbitron',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: .8;
+            transition: .4s;
+            &:hover{
+              transform: scale(1.1);
+              color: #9602A4;
+              background: #ffffff;
+            }
+          }
+
         }
 
       }
