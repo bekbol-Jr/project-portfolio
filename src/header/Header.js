@@ -11,11 +11,11 @@ const Header = () => {
                         <img className="header--logo--img" src={logoSvg} alt=""/>
                     </div>
                     <nav className="header--nav">
-                        <Link to={'/about-us'} className="header--nav--item">ABOUT US</Link>
-                        <Link to={'/services'} className="header--nav--item">SERVICES</Link>
-                        <Link to={'/portfolio'} className="header--nav--item">PORTFOLIO</Link>
-                        <Link to={'/staff'} className="header--nav--item">STAFF</Link>
-                        <Link to={'/contact'} className="header--nav--item">CONTACT</Link>
+                        <a href={"#about-us"} className="header--nav--item">ABOUT US</a>
+                        <a href={"#services"} className="header--nav--item">SERVICES</a>
+                        <a href={"#portfolio"} className="header--nav--item">PORTFOLIO</a>
+                        <a href={"#team"} className="header--nav--item">STAFF</a>
+                        <a href={"#contact"} className="header--nav--item">CONTACT</a>
                     </nav>
                     <div className="header--burger-menu">
                         <span className="header--burger-menu--span"></span>

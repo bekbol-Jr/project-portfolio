@@ -26,10 +26,10 @@ const OutTeam = () => {
 
                             <div className="team--general__gen--block__text">
                                 <h3>
-                                    Aizhamal.Rakhatbek
+                                    Bekbol Tailakov
                                 </h3>
                                 <h2>
-                                    UX/UI Designer
+                                    Front-end Developer
                                 </h2>
                             </div>
 
@@ -52,10 +52,10 @@ const OutTeam = () => {
 
                             <div className="team--general__gen--block__text">
                                 <h3>
-                                    Aizhamal.Rakhatbek
+                                    Eliza Midinova
                                 </h3>
                                 <h2>
-                                    UX/UI Designer
+                                    Front-end Developer
                                 </h2>
                             </div>
 
@@ -65,10 +65,10 @@ const OutTeam = () => {
 
                             <div className="team--general__gen--block__text">
                                 <h3>
-                                    Aizhamal.Rakhatbek
+                                    Bakyt Azimzhanov
                                 </h3>
                                 <h2>
-                                    UX/UI Designer
+                                    JS Developer
                                 </h2>
                             </div>
 
