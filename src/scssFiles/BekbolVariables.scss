@@ -17,6 +17,23 @@
       @extend %title;
       font-size: 14px;
       font-family: sans-serif;
+      position: relative;
+      transition: .2s;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: #53FD08;
+        transition: .3s;
+      }
+      &:hover{
+        color: #53FD08;
+        &:before{
+          width: 100%;
+        }
+      }
     }
   }
   &--burger-menu{
@@ -82,7 +99,7 @@
       @extend %description;
       color: white;
       font-size: 0.9em;
-      line-height: 20px;
+      line-height: 25px;
       font-weight: 400;
       margin-bottom: 20px;
     }
@@ -94,6 +111,11 @@
       padding: 15px 40px;
       background: transparent;
       border: 1px solid #53FD08;
+      transition: .2s;
+      &:hover{
+        background: rgb(0, 0, 0);
+        color: #53FD08;
+      }
     }
   }
 
