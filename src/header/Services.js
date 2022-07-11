@@ -13,29 +13,53 @@ const Services = () => {
                         <h1 className="services--titles--title">services</h1>
                         <p className="services--titles--subtitle">we are more than developers</p>
                     </div>
-                    <div>
-                        <div>
-                            <div>
-                                <img src={MessageLeft} alt=""/>
+                    <div className="services--items">
+                        <div className="services--items--group1">
+                            <div className="services--items--group1--top" >
+                                <div className="services--items--group1--top--description">
+                                    <img src={MessageLeft} alt=""/>
+                                    <div className="services--items--group1--top--description--title">
+                                        <h3>Ux/Ui design</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
+                                    </div>
+                                </div>
                                 <img src={Round} alt=""/>
                             </div>
-                            <div>
-                                <img src={MessageLeft} alt=""/>
+                            <div className="services--items--group1--bottom">
+                                <div className="services--items--group1--bottom--description">
+                                    <img src={MessageLeft} alt=""/>
+                                    <div className="services--items--group1--bottom--description--title">
+                                        <h3>Technical support</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
+                                    </div>
+                                </div>
                                 <img src={Round} alt=""/>
                             </div>
                         </div>
-                        <div>
+                        <div className="services--items--conductor">
                             <img src={Conductor} alt=""/>
                         </div>
-                        <div>
-                            <div>
+                        <div className="services--items--group2">
+                            <div className="services--items--group2--top">
                                 <img src={Round} alt=""/>
-                                <img src={MessageRight} alt=""/>
+                                <div className="services--items--group2--top--description">
+                                    <img src={MessageRight} alt=""/>
+                                    <div className="services--items--group2--top--description--title">
+                                        <h3>Website development</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div>
+                            <div className="services--items--group2--bottom">
                                 <img src={Round} alt=""/>
-                                <img src={MessageRight} alt=""/>
+                                <div className="services--items--group2--bottom--description">
+                                    <img src={MessageRight} alt=""/>
+                                    <div className="services--items--group2--bottom--description--title">
+                                        <h3>Development of mobail application</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

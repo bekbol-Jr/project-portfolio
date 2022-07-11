@@ -298,6 +298,165 @@
     }
   }
 }
-
-
 //----ABOUT_US-----//
+
+
+//----SERVICES-----//
+#services{
+  margin: 15% 0;
+}
+.services{
+  &--titles{
+    &--title{
+      @extend %theme;
+      padding-left: 7% ;
+      &:before{
+        @extend %before-theme;
+        width: 5%;
+      }
+    }
+    &--subtitle{
+      @extend %description;
+      margin: 10px 0;
+    }
+  }
+
+  &--items{
+    display: flex;
+    justify-content: space-between;
+    //position: relative;
+    &--group1{
+      position: relative;
+      &--top{
+        position: absolute;
+        top: 23%;
+        left: 24px;
+        display: flex;
+        align-items: center;
+        &--description{
+          position: relative;
+          &--title{
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 5%;
+            padding: 10px;
+            h3{
+              @extend %description;
+              color: white;
+              font-weight: 400;
+              margin: 5px 0;
+            }
+            p{
+              @extend %description;
+              color: white;
+              font-weight: 200;
+              font-size: .8em;
+              margin: 3px 0;
+            }
+          }
+        }
+      }
+      &--bottom{
+        position: absolute;
+        bottom: -13.5%;
+        left: 24px;
+        display: flex;
+        align-items: center;
+        &--description{
+          position: relative;
+          &--title{
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 5%;
+            padding: 10px;
+            h3{
+              @extend %description;
+              color: white;
+              font-weight: 400;
+              margin: 5px 0;
+            }
+            p{
+              @extend %description;
+              color: white;
+              font-weight: 200;
+              font-size: .8em;
+              margin: 3px 0;
+            }
+          }
+        }
+      }
+    }
+
+    &--conductor{
+      margin: 0 auto;
+    }
+    &--group2{
+      position: relative;
+      &--top{
+        position: absolute;
+        top: -14.5%;
+        right: 24px;
+        display: flex;
+        align-items: center;
+        &--description{
+          position: relative;
+          &--title{
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 5%;
+            padding: 10px;
+            h3{
+              @extend %description;
+              color: white;
+              font-weight: 400;
+              margin: 5px 0;
+            }
+            p{
+              @extend %description;
+              color: white;
+              font-weight: 200;
+              font-size: .8em;
+              margin: 3px 0;
+            }
+          }
+        }
+      }
+      &--bottom{
+        position: absolute;
+        bottom: 18.5%;
+        right: 25px;
+        display: flex;
+        align-items: center;
+        &--description{
+          position: relative;
+          &--title{
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 5%;
+            padding: 10px;
+            h3{
+              @extend %description;
+              color: white;
+              font-weight: 400;
+              margin: 5px 0;
+            }
+            p{
+              @extend %description;
+              color: white;
+              font-weight: 200;
+              font-size: .8em;
+              margin: 3px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//----SERVICES-----//
+

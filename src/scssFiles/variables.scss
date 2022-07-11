@@ -1,6 +1,4 @@
 
-
-
 #portfolio {
   padding: 20px 0;
 
@@ -49,9 +47,15 @@
 
       div {
         margin-bottom: 30px;
-
+        overflow: hidden;
         img {
+          border-radius: 10px;
           width: 95%;
+          transition: .3s;
+          z-index: 0;
+          &:hover{
+            transform: scale(1.1);
+          }
         }
 
         h3 {
@@ -133,6 +137,7 @@
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
         backdrop-filter: blur(10px);
         border-radius: 25% 8px 25% 8px;
+
         div {
 
         }
@@ -208,72 +213,325 @@
     }
 
 
+    &__icon {
+      padding-top: 66px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative;
 
-      &__icon {
-        padding-top: 66px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
+      &--img {
+        position: absolute;
+        left: 0;
+        z-index: 1;
+      }
+
+      &--items {
+        margin-left: 22%;
+        top: 35px;
         position: relative;
+        display: flex;
+        flex-wrap: wrap;
 
-        &--img{
-          position: absolute;
-          left: 0;
-          z-index: 1;
-        }
-
-        &--items{
-          margin-left: 22%;
-          top: 35px;
+        &--block {
+          margin-left: 70px;
+          margin-bottom: 70px;
           position: relative;
-          display: flex ;
-          flex-wrap: wrap;
-          &--block {
-            margin-left: 70px;
-            margin-bottom: 70px;
-            position: relative;
-            background: rgba(95, 166, 192, 0);
-            border-radius: 5px;
-            transform: scale(.8);
+          background: rgba(95, 166, 192, 0);
+          border-radius: 5px;
+          transform: scale(.8);
 
-            &__img {
+          &__img {
+            position: absolute;
+            top: -80px;
+          }
+
+          &__two {
+            position: absolute;
+            top: -70px;
+            right: -4.5rem;
+          }
+
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
               position: absolute;
-              top: -80px;
+              bottom: 9px;
             }
 
-            &__two {
-              position: absolute;
-              top: -70px;
-              right: -4.5rem;
+            h1 {
+              padding-top: 5.5rem;
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              color: #FFFFFF;
             }
 
-            div {
+          }
+
+        }
+      }
+
+
+    }
+
+  }
+}
+
+#contact {
+  padding: 30px 0;
+
+  .contact--general {
+    padding: 150px 0;
+
+    &__gen {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      &--one {
+
+        &__contact {
+
+          &--gen {
+
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            margin-bottom: 45px;
+
+            &__nav {
               display: flex;
               justify-content: center;
               align-items: center;
 
-              img {
-                position: absolute;
-                bottom: 9px;
+              div {
+                width: 47px;
+                border: 2px solid rgba(177, 2, 193, 0.5);
               }
 
               h1 {
-                padding-top: 5.5rem;
+                padding-left: 24px;
                 font-family: 'Orbitron', sans-serif;
                 font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
+                font-weight: 600;
+                font-size: 28px;
+                text-transform: uppercase;
                 color: #FFFFFF;
               }
 
             }
 
+
           }
+
+          &--general {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 10px;
+
+            a {
+              padding-left: 15px;
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              color: #FFFFFF;
+            }
+
+          }
+
         }
 
+        &__icon {
+          padding-top: 70px;
 
+          h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+          }
+
+          &--gen {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            svg {
+              margin-right: 20px;
+            }
+
+          }
 
         }
 
       }
+
+      &--two {
+
+        h1 {
+          font-family: 'Orbitron', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin-bottom: 25px;
+        }
+
+        h4 {
+          font-family: 'Orbitron', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: #FFFFFF;
+          margin-bottom: 20px;
+        }
+
+        &__gen {
+          display: flex;
+
+          div {
+            padding-right: 20px;
+
+            input {
+              color: #FFFFFF;
+              font-size: 16px;
+              width: 372px;
+              height: 47px;
+              padding-left: 20px;
+              padding-right: 20px;
+              background: rgba(255, 255, 255, 0.1);
+              opacity: 0.5;
+              border-radius: 5px;
+              margin-bottom: 22px;
+            }
+          }
+        }
+
+        &__in {
+          input {
+            color: #FFFFFF;
+            font-size: 16px;
+            width: 768px;
+            height: 47px;
+            padding-right: 20px;
+            padding-left: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            opacity: 0.5;
+            border-radius: 5px;
+            margin-bottom: 22px;
+          }
+        }
+
+        &__input {
+          textarea {
+            padding-right: 20px;
+            padding-top: 10px;
+            color: #FFFFFF;
+            font-size: 16px;
+            padding-left: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            opacity: 0.5;
+            border-radius: 5px;
+            outline: none;
+          }
+        }
+
+      }
+
     }
+
+  }
+}
+
+#footer {
+  padding: 30px 0;
+  background: #0A0712;
+  backdrop-filter: blur(10px);
+
+  .footer--general {
+
+    &__line {
+      width: 99%;
+      height: 3px;
+      background: rgba(177, 2, 193, 0.13);
+    }
+
+    &__gen{
+      padding: 30px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 100px;
+      &--logo{
+        img{
+          margin-bottom: 60px;
+        }
+
+        p{
+          font-family: 'Orbitron',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+          line-height: 16px;
+          margin-bottom: 24px;
+        }
+
+        div{
+          display: flex;
+          justify-content: start;
+          align-items: center;
+
+          a{
+            padding-left: 10px;
+            font-family: 'Orbitron',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            color: #FFFFFF;
+          }
+        }
+
+      }
+
+      &--menu{
+        h1{
+          font-family: 'Orbitron',sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          color: #FFFFFF;
+          margin-bottom: 20px;
+        }
+        div{
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          flex-direction: column;
+          a{
+            font-family: 'Orbitron',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+    }
+
+  }
+}

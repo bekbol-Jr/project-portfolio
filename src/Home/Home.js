@@ -5,6 +5,8 @@ import OutTeam from "../footer/OutTeam";
 import Tools from "../footer/Tools";
 import Hero from "../header/Hero";
 import AboutUs from "../header/AboutUs";
+import Contact from "../footer/Contact";
+import Footer from "../footer/Footer";
 import Services from "../header/Services";
 
 
@@ -18,6 +20,8 @@ const Home = () => {
             <Portfolio/>
             <OutTeam/>
             <Tools/>
+            <Contact/>
+            <Footer/>
         </>
     );
 };
