@@ -15,9 +15,7 @@ const Footer = () => {
                         <div className="footer--general__gen--logo">
                             <img src={logofooter} alt=""/>
 
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit.
-                            </p>
+
 
                             <div>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -34,6 +32,7 @@ const Footer = () => {
 
                         </div>
 
+<<<<<<< HEAD
                         <div className="footer--general__gen--menu">
                             <h1>Menu</h1>
                             <div>
@@ -67,9 +66,16 @@ const Footer = () => {
                             </div>
                         </div>
 
+=======
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
                     </div>
 
                     <div className="footer--general__line"></div>
+
+                    <div className="footer--general__text"> <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p></div>
+
 
                 </div>
             </div>

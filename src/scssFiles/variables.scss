@@ -51,7 +51,10 @@
 
         img {
           border-radius: 10px;
+<<<<<<< HEAD
           //width: 95%;
+=======
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
           transition: .3s;
           z-index: 0;
 
@@ -135,19 +138,25 @@
         flex-direction: column;
         width: 253px;
         height: 371px;
-        background: linear-gradient(154.9deg, rgba(255, 255, 255, 0.05) 1.1%, rgba(255, 255, 255, 0.023) 108.49%);
+        background: linear-gradient(154.9deg, rgba(143, 142, 142, 0.28) 1.1%, rgba(255, 255, 255, 0.15) 108.49%);
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
         backdrop-filter: blur(10px);
         border-radius: 25% 8px 25% 8px;
 
-        div {
-
+        &__img {
+          //padding-left: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            //width: 150%;
+          }
         }
 
         &__text {
           display: flex;
           justify-content: center;
-          align-items: start;
+          align-items: center;
           flex-direction: column;
 
           h3 {
@@ -156,7 +165,7 @@
             font-weight: 500;
             font-size: 15px;
             color: #FFFFFF;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
           }
 
           h2 {
@@ -415,6 +424,7 @@
             }
           }
 
+<<<<<<< HEAD
           &__in {
             input {
               @extend %input;
@@ -422,6 +432,8 @@
               width: 100%;
             }
           }
+=======
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
 
           &__input {
             textarea {
@@ -473,12 +485,28 @@
 
   .footer--general {
 
+  &__text{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    p{
+      font-family: 'Orbitron',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: #FFFFFF;
+    }
+
+  }
+
     &__line {
       width: 99%;
       height: 3px;
       background: rgba(177, 2, 193, 0.13);
     }
 
+<<<<<<< HEAD
     &__gen {
       padding: 30px 0 10% 0;
       display: flex;
@@ -499,10 +527,22 @@
           line-height: 16px;
           margin-bottom: 24px;
         }
+=======
+    &__gen{
+      padding: 10% 0 7% 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &--logo{
+        img{
+          margin-bottom: 15px;
+        }
+
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
 
         div {
           display: flex;
-          justify-content: start;
+          justify-content: center;
           align-items: center;
 
           a {
@@ -517,6 +557,7 @@
 
       }
 
+<<<<<<< HEAD
       &--menu {
         margin: 10px 20px 40px 20px;
         h1 {
@@ -543,6 +584,8 @@
           }
         }
       }
+=======
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
 
     }
 

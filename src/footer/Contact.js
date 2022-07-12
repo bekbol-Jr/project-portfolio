@@ -106,13 +106,17 @@ const Contact = () => {
 
                         <div className="contact--general__gen--two">
 
-                            <h1>
-                                get consultation
-                            </h1>
+                            <div className="contact--general__gen--two__text">
+                                <h1>
+                                    get consultation
+                                </h1>
 
-                            <h4>
-                                Feel free to send us your message
-                            </h4>
+                                <h4>
+                                    Feel free to send us your message
+                                </h4>
+                            </div>
+
+
 
                             <div className="contact--general__gen--two__gen">
 
@@ -132,6 +136,13 @@ const Contact = () => {
 
                             </div>
 
+<<<<<<< HEAD
+=======
+
+                            <div className="contact--general__gen--two__input">
+                                <textarea name="" cols="64" rows="10" placeholder="Mesage..."></textarea>
+                            </div>
+>>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
 
 
                             <div className="contact--general__gen--two__btn">
