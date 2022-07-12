@@ -133,19 +133,22 @@
         flex-direction: column;
         width: 253px;
         height: 371px;
-        background: linear-gradient(154.9deg, rgba(255, 255, 255, 0.05) 1.1%, rgba(255, 255, 255, 0.023) 108.49%);
+        background: linear-gradient(154.9deg, rgba(143, 142, 142, 0.28) 1.1%, rgba(255, 255, 255, 0.15) 108.49%);
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
         backdrop-filter: blur(10px);
         border-radius: 25% 8px 25% 8px;
 
-        div {
-
+        &__img {
+          padding-left: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         &__text {
           display: flex;
           justify-content: center;
-          align-items: start;
+          align-items: center;
           flex-direction: column;
 
           h3 {
@@ -154,7 +157,7 @@
             font-weight: 500;
             font-size: 15px;
             color: #FFFFFF;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
           }
 
           h2 {

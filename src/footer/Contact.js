@@ -79,13 +79,17 @@ const Contact = () => {
 
                         <div className="contact--general__gen--two">
 
-                            <h1>
-                                get consultation
-                            </h1>
+                            <div className="contact--general__gen--two__text">
+                                <h1>
+                                    get consultation
+                                </h1>
 
-                            <h4>
-                                Feel free to send us your message
-                            </h4>
+                                <h4>
+                                    Feel free to send us your message
+                                </h4>
+                            </div>
+
+
 
                             <div className="contact--general__gen--two__gen">
 

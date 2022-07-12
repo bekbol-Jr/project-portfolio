@@ -25,11 +25,40 @@
     }
   }
 
+  #contact {
+    .contact--general {
+      &__gen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &--one {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer--general {
+      &__gen {
+        flex-wrap: wrap;
+
+        &--logo {
+          margin-bottom: 20px;
+        }
+
+        &--menu {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 
 }
 
 @media (max-width: 1024px) {
-
 
 
   #team {
@@ -68,11 +97,12 @@
 }
 
 @media (max-width: 820px) {
-  .header{
-    &--nav{
+  .header {
+    &--nav {
       display: none;
     }
-    &--burger-menu{
+
+    &--burger-menu {
       display: block;
     }
   }
@@ -108,9 +138,89 @@
     }
   }
 
+  #contact {
+    .contact--general {
+
+      &__gen {
+        flex-direction: column;
+
+        &--two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          &__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+
+          &__gen {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            //div{
+            //  input{
+            //    width: 90%;
+            //  }
+            //}
+          }
+
+          &__in {
+            input {
+              width: 500px;
+              height: 47px;
+            }
+          }
+
+          &__input {
+            textarea {
+              width: 600px;
+              height: 200px
+            }
+          }
+
+        }
+
+      }
+
+    }
+  }
+
 }
 
 @media (max-width: 557px) {
+
+  #contact {
+    .contact--general {
+
+      &__gen {
+        &--two {
+
+
+          &__in {
+            input {
+              width: 450px;
+              height: 47px;
+            }
+          }
+
+          &__input {
+            textarea {
+              width: 500px;
+              height: 150px
+            }
+          }
+
+        }
+
+      }
+
+    }
+  }
+
 
   #portfolio {
     .portfolio--general {
@@ -265,9 +375,52 @@
 
 
   }
+
+  #contact {
+    .contact--general {
+
+      &__gen {
+        &--two {
+
+
+          &__in {
+            padding-right: 15px;
+            input {
+              width: 372px;
+              height: 47px;
+            }
+          }
+
+          &__input {
+            padding-right: 15px;
+            textarea {
+              width: 372px;
+              height: 100px
+            }
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+  #footer{
+    .footer--general{
+      &__gen{
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 425px) {
+
+
 
   #tools {
     .tools--general {
@@ -303,6 +456,7 @@
 }
 
 @media (max-width: 320px) {
+
 
   #tools {
     .tools--general {

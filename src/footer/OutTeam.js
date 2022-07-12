@@ -1,4 +1,7 @@
 import React from 'react';
+import bekbol from "../img/bekbol.png"
+import eliza from "../img/eliza.png"
+
 
 const OutTeam = () => {
     return (
@@ -22,9 +25,12 @@ const OutTeam = () => {
                     <div className="team--general__gen">
 
                         <div className="team--general__gen--block">
-                            <div></div>
+                            <div className="team--general__gen--block__img">
+                                <img src={bekbol} alt=""/>
+                            </div>
 
                             <div className="team--general__gen--block__text">
+
                                 <h3>
                                     Bekbol Tailakov
                                 </h3>
@@ -48,7 +54,9 @@ const OutTeam = () => {
 
                         </div>
                         <div className="team--general__gen--block">
-                            <div></div>
+                            <div className="team--general__gen--block__img">
+                                <img src={eliza} alt=""/>
+                            </div>
 
                             <div className="team--general__gen--block__text">
                                 <h3>
