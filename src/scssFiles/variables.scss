@@ -51,10 +51,6 @@
 
         img {
           border-radius: 10px;
-<<<<<<< HEAD
-          //width: 95%;
-=======
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
           transition: .3s;
           z-index: 0;
 
@@ -144,12 +140,14 @@
         border-radius: 25% 8px 25% 8px;
 
         &__img {
+          padding: 3px;
           //padding-left: 20px;
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items: start;
           img{
-            //width: 150%;
+            width: 100%;
+
           }
         }
 
@@ -424,7 +422,7 @@
             }
           }
 
-<<<<<<< HEAD
+
           &__in {
             input {
               @extend %input;
@@ -432,8 +430,6 @@
               width: 100%;
             }
           }
-=======
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
 
           &__input {
             textarea {
@@ -506,7 +502,6 @@
       background: rgba(177, 2, 193, 0.13);
     }
 
-<<<<<<< HEAD
     &__gen {
       padding: 30px 0 10% 0;
       display: flex;
@@ -527,67 +522,65 @@
           line-height: 16px;
           margin-bottom: 24px;
         }
-=======
-    &__gen{
-      padding: 10% 0 7% 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      &--logo{
-        img{
-          margin-bottom: 15px;
-        }
 
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
-
-        div {
+        &__gen {
+          padding: 10% 0 7% 0;
           display: flex;
           justify-content: center;
           align-items: center;
 
-          a {
-            padding-left: 10px;
-            font-family: 'Orbitron', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            color: #FFFFFF;
+          &--logo {
+            img {
+              margin-bottom: 15px;
+            }
+
+
+            div {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              a {
+                padding-left: 10px;
+                font-family: 'Orbitron', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                color: #FFFFFF;
+              }
+            }
+
           }
-        }
 
-      }
+          &--menu {
+            margin: 10px 20px 40px 20px;
 
-<<<<<<< HEAD
-      &--menu {
-        margin: 10px 20px 40px 20px;
-        h1 {
-          font-family: 'Orbitron', sans-serif;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 15px;
-          color: #FFFFFF;
-          margin-bottom: 20px;
-        }
+            h1 {
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              color: #FFFFFF;
+              margin-bottom: 20px;
+            }
 
-        div {
-          display: flex;
-          justify-content: center;
-          align-items: start;
-          flex-direction: column;
+            div {
+              display: flex;
+              justify-content: center;
+              align-items: start;
+              flex-direction: column;
 
-          a {
-            font-family: 'Orbitron', sans-serif;
-            font-weight: 100;
-            font-size: .8em;
-            color: #FFFFFF;
-            margin-bottom: 10px;
+              a {
+                font-family: 'Orbitron', sans-serif;
+                font-weight: 100;
+                font-size: .8em;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+              }
+            }
           }
+
         }
-      }
-=======
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
-
-    }
-
+      }}
   }
 }

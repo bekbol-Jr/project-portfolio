@@ -1,25 +1,62 @@
-.header{
+@media (max-width: 820px) {
+  #header {
+    position: relative;
+
+    .burger-menu-box {
+      position: absolute;
+      transition: .7s;
+      width: 100vw;
+      background: #120612;
+      z-index: 4;
+      display: flex;
+      justify-content: center;
+      padding: 50px 0 40px 0;
+
+      &--nav {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--item {
+          Font-family: Montserrat, sans-serif;
+          Font-size: 20px;
+          Line-height: 25px;
+          Vertical-align: Top;
+          color: #FFFFFF;
+          margin: 15px 0;
+        }
+      }
+    }
+
+  }
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 20px;
-  &--logo{
-    &--img{
+  padding: 15px 20px;
+
+  &--logo {
+    &--img {
       transform: scale(1.4);
     }
   }
 
-  &--nav{
+  &--nav {
     display: flex;
     justify-content: space-between;
-    &--item{
+
+    &--item {
       margin-left: 40px;
       @extend %title;
       font-size: 14px;
       font-family: sans-serif;
       position: relative;
       transition: .2s;
-      &:before{
+
+      &:before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -28,38 +65,44 @@
         background: #53FD08;
         transition: .3s;
       }
-      &:hover{
+
+      &:hover {
         color: #53FD08;
-        &:before{
+
+        &:before {
           width: 100%;
         }
       }
     }
   }
-  &--burger-menu{
+
+  &--burger-menu {
     display: none;
     transform: rotate(90deg);
-    &--span{
+
+    &--span {
       border-radius: 8px;
       padding: 15px 3px;
-      background: linear-gradient( #600766  0%, #FFFFFF 100%);
+      background: linear-gradient(#600766 0%, #FFFFFF 100%);
       position: relative;
-      &:after{
+
+      &:after {
         content: "";
         position: absolute;
         width: 100%;
         height: 80%;
-        background: linear-gradient( #600766  0%, #FFFFFF 100%);
+        background: linear-gradient(#600766 0%, #FFFFFF 100%);
         border-radius: 8px;
         left: 10px;
         top: 0;
       }
-      &:before{
+
+      &:before {
         content: "";
         position: absolute;
         width: 100%;
         height: 120%;
-        background: linear-gradient( #600766  0%, #FFFFFF 100%);
+        background: linear-gradient(#600766 0%, #FFFFFF 100%);
         border-radius: 8px;
         right: 10px;
         top: 0;
@@ -71,31 +114,36 @@
 
 
 //----HERO----//
-#hero{
+#hero {
   position: relative;
   margin-bottom: 100px;
 }
-.hero{
+
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
-  &--items{
+
+  &--items {
     margin-top: 10%;
     width: 37%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    &--title{
+
+    &--title {
       @extend %title
     }
-    &--subtitle{
+
+    &--subtitle {
       margin: 12px 0 5px 0;
       @extend %title;
       color: rgba(177, 1, 193, 0.5);
       font-size: 33px;
     }
-    &--description{
+
+    &--description {
       @extend %description;
       color: white;
       font-size: 0.9em;
@@ -104,7 +152,7 @@
       margin-bottom: 20px;
     }
 
-    &--btn{
+    &--btn {
       color: white;
       font-size: 1em;
       margin-top: 35px;
@@ -112,14 +160,15 @@
       background: transparent;
       border: 1px solid #53FD08;
       transition: .2s;
-      &:hover{
+
+      &:hover {
         background: rgb(0, 0, 0);
         color: #53FD08;
       }
     }
   }
 
-  &--img{
+  &--img {
     position: absolute;
     z-index: -2;
     right: 5%;
@@ -132,64 +181,78 @@
 
 //----ABOUT_US-----//
 
-#about-us{
+#about-us {
   margin: 20% 0 10% 0;
 }
-.about-us{
-  &--titles{
+
+.about-us {
+  &--titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &--theme{
+
+    &--theme {
       display: flex;
       flex-direction: column;
-      &--title{
+
+      &--title {
         @extend %theme;
-        &:before{
+
+        &:before {
           @extend %before-theme;
         }
       }
-      &--subtitle{
+
+      &--subtitle {
         @extend %description;
         margin: 10px 0;
       }
     }
-    &--more{
+
+    &--more {
       @extend %description;
     }
   }
 
-  &--images{
+  &--images {
     width: 99%;
-    margin: 30px 0;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    &--team-work{
+
+    &--team-work {
       border-radius: 10px;
       position: relative;
       overflow: hidden;
+      margin-right: 1%;
       z-index: 0;
-      img{
+
+      img {
+        width: 100%;
         transition: .3s;
         z-index: 0;
-        &:hover{
+
+        &:hover {
           transform: scale(1.2);
         }
       }
-      &--titles{
+
+      &--titles {
         position: absolute;
         bottom: 0;
         z-index: 3;
         padding: 0 0 20px 20px;
         transform: translateY(70px);
         transition: .3s;
-        h3{
+
+        h3 {
           @extend %description;
           color: white;
           font-size: 20px;
         }
-        p{
+
+        p {
           @extend %description;
           color: white;
           font-weight: 300;
@@ -197,34 +260,41 @@
         }
       }
     }
-    &:hover .img-title{
+
+    &:hover .img-title {
       transform: translateY(0);
     }
 
-    &--group{
+    &--group {
 
-      &--1{
+      &--1 {
         border-radius: 10px;
         position: relative;
         overflow: hidden;
-        img{
+
+        img {
+          width: 100%;
           transition: .3s;
-          &:hover{
+
+          &:hover {
             transform: scale(1.2);
           }
         }
-        &--titles{
+
+        &--titles {
           position: absolute;
           bottom: 0;
           z-index: 3;
           padding: 0 0 20px 20px;
-          h3{
+
+          h3 {
             @extend %description;
             color: white;
             font-size: 20px;
             font-weight: 400;
           }
-          p{
+
+          p {
             @extend %description;
             color: white;
             font-weight: 300;
@@ -235,29 +305,35 @@
         }
       }
 
-      &--2{
-        margin-top: 15px;
+      &--2 {
+        margin-top: 2%;
         border-radius: 10px;
         position: relative;
         overflow: hidden;
-        img{
+
+        img {
+          width: 100%;
           transition: .3s;
-          &:hover{
+
+          &:hover {
             transform: scale(1.2);
           }
         }
-        &--titles{
+
+        &--titles {
           position: absolute;
           bottom: 0;
           z-index: 3;
           padding: 0 0 20px 20px;
-          h3{
+
+          h3 {
             @extend %description;
             color: white;
             font-size: 20px;
             font-weight: 400;
           }
-          p{
+
+          p {
             @extend %description;
             color: white;
             font-weight: 300;
@@ -270,18 +346,20 @@
     }
   }
 
-  &--descriptions{
+  &--descriptions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &--items{
-      h4{
+
+    &--items {
+      h4 {
         @extend %description;
         color: white;
         font-size: 1.3em;
         font-weight: 300;
       }
-      p{
+
+      p {
         @extend %description;
         color: white;
         font-size: .8em;
@@ -291,7 +369,7 @@
       }
     }
 
-    &--border{
+    &--border {
       width: 3px;
       height: 60px;
       background: #5D0965;
@@ -299,56 +377,65 @@
     }
   }
 }
+
 //----ABOUT_US-----//
 
 
 //----SERVICES-----//
-#services{
+#services {
   margin: 15% 0;
 }
-.services{
-  &--titles{
-    &--title{
+
+.services {
+  &--titles {
+    &--title {
       @extend %theme;
-      padding-left: 7% ;
-      &:before{
+      padding-left: 7%;
+
+      &:before {
         @extend %before-theme;
         width: 5%;
       }
     }
-    &--subtitle{
+
+    &--subtitle {
       @extend %description;
       margin: 10px 0;
     }
   }
 
-  &--items{
+  &--items {
     display: flex;
     //justify-content: space-between;
     //position: relative;
-    &--group1{
+    &--group1 {
       position: relative;
-      &--top{
+
+      &--top {
         position: absolute;
         top: 23%;
         left: 24px;
         display: flex;
         align-items: center;
-        &--description{
+
+        &--description {
           position: relative;
-          &--title{
+
+          &--title {
             position: absolute;
             z-index: 2;
             top: 0;
             right: 5%;
             padding: 10px;
-            h3{
+
+            h3 {
               @extend %description;
               color: white;
               font-weight: 400;
               margin: 5px 0;
             }
-            p{
+
+            p {
               @extend %description;
               color: white;
               font-weight: 200;
@@ -358,27 +445,32 @@
           }
         }
       }
-      &--bottom{
+
+      &--bottom {
         position: absolute;
         bottom: -13.5%;
         left: 24px;
         display: flex;
         align-items: center;
-        &--description{
+
+        &--description {
           position: relative;
-          &--title{
+
+          &--title {
             position: absolute;
             z-index: 2;
             top: 0;
             right: 5%;
             padding: 10px;
-            h3{
+
+            h3 {
               @extend %description;
               color: white;
               font-weight: 400;
               margin: 5px 0;
             }
-            p{
+
+            p {
               @extend %description;
               color: white;
               font-weight: 200;
@@ -390,32 +482,38 @@
       }
     }
 
-    &--conductor{
+    &--conductor {
       margin: 0 auto;
     }
-    &--group2{
+
+    &--group2 {
       position: relative;
-      &--top{
+
+      &--top {
         position: absolute;
         top: -14.5%;
         right: 24px;
         display: flex;
         align-items: center;
-        &--description{
+
+        &--description {
           position: relative;
-          &--title{
+
+          &--title {
             position: absolute;
             z-index: 2;
             top: 0;
             left: 5%;
             padding: 10px;
-            h3{
+
+            h3 {
               @extend %description;
               color: white;
               font-weight: 400;
               margin: 5px 0;
             }
-            p{
+
+            p {
               @extend %description;
               color: white;
               font-weight: 200;
@@ -425,27 +523,32 @@
           }
         }
       }
-      &--bottom{
+
+      &--bottom {
         position: absolute;
         bottom: 18.5%;
         right: 25px;
         display: flex;
         align-items: center;
-        &--description{
+
+        &--description {
           position: relative;
-          &--title{
+
+          &--title {
             position: absolute;
             z-index: 2;
             top: 0;
             left: 5%;
             padding: 10px;
-            h3{
+
+            h3 {
               @extend %description;
               color: white;
               font-weight: 400;
               margin: 5px 0;
             }
-            p{
+
+            p {
               @extend %description;
               color: white;
               font-weight: 200;

@@ -32,7 +32,6 @@ const Footer = () => {
 
                         </div>
 
-<<<<<<< HEAD
                         <div className="footer--general__gen--menu">
                             <h1>Menu</h1>
                             <div>
@@ -66,8 +65,6 @@ const Footer = () => {
                             </div>
                         </div>
 
-=======
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
                     </div>
 
                     <div className="footer--general__line"></div>
