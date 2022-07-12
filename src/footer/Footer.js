@@ -67,7 +67,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className="footer--general__line"></div>
+                    <div className="footer--general__line linee"></div>
 
                     <div className="footer--general__text">
                         <p>
