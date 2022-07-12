@@ -160,6 +160,7 @@
   }
 
   &--images{
+    width: 99%;
     margin: 30px 0;
     display: flex;
     justify-content: space-between;
@@ -215,7 +216,7 @@
         &--titles{
           position: absolute;
           bottom: 0;
-          z-index: 2;
+          z-index: 3;
           padding: 0 0 20px 20px;
           h3{
             @extend %description;
@@ -323,7 +324,7 @@
 
   &--items{
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     //position: relative;
     &--group1{
       position: relative;

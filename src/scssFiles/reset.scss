@@ -4,7 +4,8 @@
 
 
 body{
-  background: rgba(8, 8, 9, 1);
+  background: url("../img/Bg-img.png") no-repeat center/cover;
+  min-height: 100vh;
 }
 a, a:hover{
   text-decoration: none;
@@ -62,4 +63,15 @@ ul,ol, li{
   background: rgba(172, 11, 184, 0.5);
   left: 0;
   top: 50%;
+}
+
+%input{
+  padding: 12px 20px;
+  font-family:  sans-serif;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  opacity: .5;
+  outline: none;
 }

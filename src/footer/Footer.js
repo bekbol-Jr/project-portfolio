@@ -35,9 +35,7 @@ const Footer = () => {
                         </div>
 
                         <div className="footer--general__gen--menu">
-                            <h1>
-                                Menu
-                            </h1>
+                            <h1>Menu</h1>
                             <div>
                                 <a href="#">About us</a>
                                 <a href="#">Services</a>
@@ -49,10 +47,8 @@ const Footer = () => {
                         </div>
 
                         <div className="footer--general__gen--menu">
-                            <h1>
-                                Services
-                            </h1>
-                            
+                            <h1>Services</h1>
+
                             <div>
                                 <a href="#">Ux/Ui design</a>
                                 <a href="#">Website development</a>
@@ -62,9 +58,7 @@ const Footer = () => {
                         </div>
 
                         <div className="footer--general__gen--menu">
-                            <h1>
-                                Resources
-                            </h1>
+                            <h1>Resources</h1>
 
                             <div>
                                 <a href="#">Help Center</a>

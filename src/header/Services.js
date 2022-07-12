@@ -15,7 +15,7 @@ const Services = () => {
                     </div>
                     <div className="services--items">
                         <div className="services--items--group1">
-                            <div className="services--items--group1--top" >
+                            <div className="services--items--group1--top message" >
                                 <div className="services--items--group1--top--description">
                                     <img src={MessageLeft} alt=""/>
                                     <div className="services--items--group1--top--description--title">
@@ -23,9 +23,9 @@ const Services = () => {
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
                                     </div>
                                 </div>
-                                <img src={Round} alt=""/>
+                                <img src={Round} alt="" className="round"/>
                             </div>
-                            <div className="services--items--group1--bottom">
+                            <div className="services--items--group1--bottom message">
                                 <div className="services--items--group1--bottom--description">
                                     <img src={MessageLeft} alt=""/>
                                     <div className="services--items--group1--bottom--description--title">
@@ -33,15 +33,15 @@ const Services = () => {
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
                                     </div>
                                 </div>
-                                <img src={Round} alt=""/>
+                                <img src={Round} alt="" className="round"/>
                             </div>
                         </div>
-                        <div className="services--items--conductor">
+                        <div className="services--items--conductor ">
                             <img src={Conductor} alt=""/>
                         </div>
                         <div className="services--items--group2">
-                            <div className="services--items--group2--top">
-                                <img src={Round} alt=""/>
+                            <div className="services--items--group2--top message">
+                                <img src={Round} alt="" className="round"/>
                                 <div className="services--items--group2--top--description">
                                     <img src={MessageRight} alt=""/>
                                     <div className="services--items--group2--top--description--title">
@@ -51,8 +51,8 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className="services--items--group2--bottom">
-                                <img src={Round} alt=""/>
+                            <div className="services--items--group2--bottom message">
+                                <img src={Round} alt="" className="round" />
                                 <div className="services--items--group2--bottom--description">
                                     <img src={MessageRight} alt=""/>
                                     <div className="services--items--group2--bottom--description--title">
