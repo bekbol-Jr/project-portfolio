@@ -126,9 +126,7 @@ const Contact = () => {
                                     <input type="email" placeholder="Your email..."/>
                                 </div>
 
-                                <div className="contact--general__gen--two__gen__in">
-                                    <input type="text" placeholder="Subject..."/>
-                                </div>
+
 
                                 <div className="contact--general__gen--two__gen__input">
                                     <textarea name="" rows="10" placeholder="Mesage..."></textarea>
@@ -136,13 +134,8 @@ const Contact = () => {
 
                             </div>
 
-<<<<<<< HEAD
-=======
 
-                            <div className="contact--general__gen--two__input">
-                                <textarea name="" cols="64" rows="10" placeholder="Mesage..."></textarea>
-                            </div>
->>>>>>> ebf7611a83316846c575b3a5739662daf90563fe
+
 
 
                             <div className="contact--general__gen--two__btn">
