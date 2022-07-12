@@ -15,9 +15,7 @@ const Footer = () => {
                         <div className="footer--general__gen--logo">
                             <img src={logofooter} alt=""/>
 
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit.
-                            </p>
+
 
                             <div>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -34,48 +32,14 @@ const Footer = () => {
 
                         </div>
 
-                        <div className="footer--general__gen--menu">
-                            <h1>
-                                Menu
-                            </h1>
-                            <div>
-                                <a href="#">About us</a>
-                                <a href="#">Services</a>
-                                <a href="#">Portfolio</a>
-                                <a href="#">Staff</a>
-                                <a href="#">Tools</a>
-                            </div>
-
-                        </div>
-
-                        <div className="footer--general__gen--menu">
-                            <h1>
-                                Services
-                            </h1>
-                            
-                            <div>
-                                <a href="#">Ux/Ui design</a>
-                                <a href="#">Website development</a>
-                                <a href="#">Development of mobail application</a>
-                                <a href="#">Technical support</a>
-                            </div>
-                        </div>
-
-                        <div className="footer--general__gen--menu">
-                            <h1>
-                                Resources
-                            </h1>
-
-                            <div>
-                                <a href="#">Help Center</a>
-                                <a href="#">Blog</a>
-                                <a href="#">Newsletter</a>
-                            </div>
-                        </div>
-
                     </div>
 
                     <div className="footer--general__line"></div>
+
+                    <div className="footer--general__text"> <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p></div>
+
 
                 </div>
             </div>

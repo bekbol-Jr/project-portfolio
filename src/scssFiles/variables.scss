@@ -50,7 +50,6 @@
         overflow: hidden;
         img {
           border-radius: 10px;
-          width: 95%;
           transition: .3s;
           z-index: 0;
           &:hover{
@@ -139,10 +138,13 @@
         border-radius: 25% 8px 25% 8px;
 
         &__img {
-          padding-left: 20px;
+          //padding-left: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
+          img{
+            //width: 150%;
+          }
         }
 
         &__text {
@@ -423,21 +425,6 @@
           }
         }
 
-        &__in {
-          input {
-            font-family: 'Orbitron',sans-serif;
-            color: #FFFFFF;
-            font-size: 16px;
-            width: 768px;
-            height: 47px;
-            padding-right: 20px;
-            padding-left: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 5px;
-            margin-bottom: 22px;
-            opacity: .5;
-          }
-        }
 
         &__input {
           textarea {
@@ -494,6 +481,21 @@
 
   .footer--general {
 
+  &__text{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    p{
+      font-family: 'Orbitron',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: #FFFFFF;
+    }
+
+  }
+
     &__line {
       width: 99%;
       height: 3px;
@@ -501,29 +503,19 @@
     }
 
     &__gen{
-      padding: 30px 0;
+      padding: 10% 0 7% 0;
       display: flex;
-      justify-content: space-between;
-      align-items: start;
-      margin-bottom: 100px;
+      justify-content: center;
+      align-items: center;
       &--logo{
         img{
-          margin-bottom: 60px;
+          margin-bottom: 15px;
         }
 
-        p{
-          font-family: 'Orbitron',sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 13px;
-          color: #FFFFFF;
-          line-height: 16px;
-          margin-bottom: 24px;
-        }
 
         div{
           display: flex;
-          justify-content: start;
+          justify-content: center;
           align-items: center;
 
           a{
@@ -538,30 +530,6 @@
 
       }
 
-      &--menu{
-        h1{
-          font-family: 'Orbitron',sans-serif;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 15px;
-          color: #FFFFFF;
-          margin-bottom: 20px;
-        }
-        div{
-          display: flex;
-          justify-content: center;
-          align-items: start;
-          flex-direction: column;
-          a{
-            font-family: 'Orbitron',sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            color: #FFFFFF;
-            margin-bottom: 10px;
-          }
-        }
-      }
 
     }
 

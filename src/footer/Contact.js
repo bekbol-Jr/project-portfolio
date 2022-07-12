@@ -105,9 +105,6 @@ const Contact = () => {
 
                             </div>
 
-                            <div className="contact--general__gen--two__in">
-                                <input type="text"  placeholder="Subject..."/>
-                            </div>
 
                             <div className="contact--general__gen--two__input">
                                 <textarea name="" cols="64" rows="10" placeholder="Mesage..."></textarea>
