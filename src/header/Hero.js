@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSvg from "../img/hero-svg.svg"
+import HeroSvg from "../img/emoji.svg"
 
 const Hero = () => {
     return (

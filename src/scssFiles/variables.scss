@@ -156,324 +156,31 @@
             }
           }
 
-          &__text {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            h3 {
-              font-family: 'Montserrat', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 15px;
-              color: #FFFFFF;
-              margin-bottom: 6px;
-            }
-
-            h2 {
-              font-family: 'Montserrat', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 16px;
-              color: #FFFFFF;
-
-            }
-          }
-
         }
 
-      }
-
-    }
-  }
-
-  #tools {
-    padding: 30px 0;
-
-    .tools--general {
-
-      &__text {
-        padding-top: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-        margin-bottom: 45px;
-
-        &--one {
+        &__text {
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-direction: column;
 
-          div {
-            width: 47px;
-            border: 2px solid rgba(177, 2, 193, 0.5);
-          }
-
-          h1 {
-            padding-left: 24px;
-            font-family: 'Orbitron', sans-serif;
+          h3 {
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 15px;
             color: #FFFFFF;
+            margin-bottom: 6px;
           }
 
-        }
-
-
-      }
-
-
-      &__icon {
-        padding-top: 66px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        position: relative;
-
-        &--img {
-          position: absolute;
-          left: 0;
-          z-index: 1;
-        }
-
-        &--items {
-          margin-left: 22%;
-          top: 35px;
-          position: relative;
-          display: flex;
-          flex-wrap: wrap;
-
-          &--block {
-            margin-left: 70px;
-            margin-bottom: 70px;
-            position: relative;
-            background: rgba(95, 166, 192, 0);
-            border-radius: 5px;
-            transform: scale(.8);
-
-            &__img {
-              position: absolute;
-              top: -80px;
-            }
-
-            &__two {
-              position: absolute;
-              top: -70px;
-              right: -4.5rem;
-            }
-
-            div {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              img {
-                position: absolute;
-                bottom: 9px;
-              }
-
-              h1 {
-                padding-top: 5.5rem;
-                font-family: 'Orbitron', sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
-                color: #FFFFFF;
-              }
-
-            }
-
-          }
-        }
-
-
-      }
-
-    }
-  }
-
-  #contact {
-    padding: 30px 0;
-
-    .contact--general {
-      padding: 150px 0;
-
-      &__gen {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
-
-        &--one {
-
-          &__contact {
-
-            &--gen {
-
-              display: flex;
-              justify-content: center;
-              align-items: start;
-              flex-direction: column;
-              margin-bottom: 45px;
-
-              &__nav {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                div {
-                  width: 47px;
-                  border: 2px solid rgba(177, 2, 193, 0.5);
-                }
-
-                h1 {
-                  padding-left: 24px;
-                  font-family: 'Orbitron', sans-serif;
-                  font-style: normal;
-                  font-weight: 600;
-                  font-size: 28px;
-                  text-transform: uppercase;
-                  color: #FFFFFF;
-                }
-
-              }
-
-
-            }
-
-            &--general {
-              display: flex;
-              justify-content: start;
-              align-items: center;
-              margin-bottom: 10px;
-
-              a {
-                padding-left: 15px;
-                font-family: 'Orbitron', sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                color: #FFFFFF;
-              }
-
-            }
-
-          }
-
-          &__icon {
-            padding-top: 70px;
-
-            h1 {
-              font-family: 'Orbitron', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 16px;
-              line-height: 20px;
-              color: #FFFFFF;
-              margin-bottom: 24px;
-            }
-
-            &--gen {
-              display: flex;
-              justify-content: start;
-              align-items: center;
-
-              svg {
-                margin-right: 20px;
-              }
-
-            }
-
-          }
-
-        }
-
-        &--two {
-          width: 60%;
-
-          h1 {
-            font-family: 'Orbitron', sans-serif;
+          h2 {
+            font-family: 'Montserrat', sans-serif;
             font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            text-transform: uppercase;
-            color: #FFFFFF;
-            margin-bottom: 25px;
-          }
-
-          h4 {
-            font-family: 'Orbitron', sans-serif;
-            font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
             font-size: 16px;
             color: #FFFFFF;
-            margin-bottom: 20px;
-          }
-
-          &__gen {
-            display: flex;
-            flex-direction: column;
-
-            &--input-group {
-              display: flex;
-              justify-content: space-between;
-              margin-bottom: 20px;
-
-              input {
-                @extend %input;
-                width: 49%;
-              }
-            }
-
-
-            &__in {
-              input {
-                @extend %input;
-                margin: 20px 0;
-                width: 100%;
-              }
-            }
-
-            &__input {
-              textarea {
-                @extend %input;
-                width: 100%;
-              }
-            }
 
           }
-
-
-          &__btn {
-            padding-top: 45px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            button {
-              padding: 12px 60px;
-              background: #9602A4;
-              border-radius: 4px;
-              font-family: 'Orbitron', sans-serif;
-              font-weight: 600;
-              font-size: 14px;
-              color: #FFFFFF;
-              opacity: .8;
-              transition: .2s;
-
-              &:hover {
-                transform: scale(1.06);
-                color: #9602A4;
-                background: #ffffff;
-              }
-            }
-
-          }
-
         }
 
       }
@@ -481,132 +188,353 @@
     }
   }
 
-  #footer {
-    padding: 30px 0;
-    background: #0A0712;
-    backdrop-filter: blur(10px);
+}
 
-    .footer--general {
+#tools {
+  padding: 30px 0;
 
-      &__text {
-        padding-top: 20px;
+  .tools--general {
+
+    &__text {
+      padding-top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      margin-bottom: 45px;
+
+      &--one {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        p {
+        div {
+          width: 47px;
+          border: 2px solid rgba(177, 2, 193, 0.5);
+        }
+
+        h1 {
+          padding-left: 24px;
           font-family: 'Orbitron', sans-serif;
           font-style: normal;
-          font-weight: 400;
-          font-size: 13px;
+          font-weight: 600;
+          font-size: 28px;
+          text-transform: uppercase;
           color: #FFFFFF;
         }
 
       }
 
-      &__line {
-        width: 99%;
-        height: 3px;
-        background: rgba(177, 2, 193, 0.13);
+
+    }
+
+
+    &__icon {
+      padding-top: 66px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative;
+
+      &--img {
+        position: absolute;
+        left: 0;
+        z-index: 1;
       }
 
-      &__gen {
-        padding: 30px 0 10% 0;
+      &--items {
+        margin-left: 22%;
+        top: 35px;
+        position: relative;
         display: flex;
-        justify-content: space-between;
-        align-items: start;
+        flex-wrap: wrap;
 
-        &--logo {
-          img {
-            margin-bottom: 60px;
+        &--block {
+          margin-left: 70px;
+          margin-bottom: 70px;
+          position: relative;
+          background: rgba(95, 166, 192, 0);
+          border-radius: 5px;
+          transform: scale(.8);
+
+          &__img {
+            position: absolute;
+            top: -80px;
           }
 
-          p {
-            font-family: 'Orbitron', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            color: #FFFFFF;
-            line-height: 16px;
-            margin-bottom: 24px;
+          &__two {
+            position: absolute;
+            top: -70px;
+            right: -4.5rem;
           }
 
-          &__gen {
-            padding: 10% 0 7% 0;
+          div {
             display: flex;
             justify-content: center;
             align-items: center;
 
-
-            &--logo {
-
-              img {
-                margin-bottom: 15px;
-              }
-
-              div {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                &--logo {
-                  img {
-                    margin-bottom: 15px;
-                  }
-
-
-                  div {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    a {
-                      padding-left: 10px;
-                      font-family: 'Orbitron', sans-serif;
-                      font-style: normal;
-                      font-weight: 400;
-                      font-size: 13px;
-                      color: #FFFFFF;
-                    }
-                  }
-
-                }
-
-                &--menu {
-                  margin: 10px 20px 40px 20px;
-
-                h1 {
-                  font-family: 'Orbitron', sans-serif;
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 15px;
-                  color: #FFFFFF;
-                  margin-bottom: 20px;
-                }
-
-                  div {
-                    display: flex;
-                    justify-content: center;
-                    align-items: start;
-                    flex-direction: column;
-
-                    a {
-                      font-family: 'Orbitron', sans-serif;
-                      font-weight: 100;
-                      font-size: .8em;
-                      color: #FFFFFF;
-                      margin-bottom: 10px;
-                    }
-                  }
-                }
-
-              }
+            img {
+              position: absolute;
+              bottom: 9px;
             }
+
+            h1 {
+              padding-top: 5.5rem;
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              color: #FFFFFF;
+            }
+
           }
 
         }
       }
 
+
     }
+
+  }
+}
+
+#contact {
+  padding: 30px 0;
+
+  .contact--general {
+    padding: 150px 0;
+
+    &__gen {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      &--one {
+
+        &__contact {
+
+          &--gen {
+
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            margin-bottom: 45px;
+
+            &__nav {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              div {
+                width: 47px;
+                border: 2px solid rgba(177, 2, 193, 0.5);
+              }
+
+              h1 {
+                padding-left: 24px;
+                font-family: 'Orbitron', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+              }
+
+            }
+
+
+          }
+
+          &--general {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 10px;
+            &--phone{
+              color: #9602A4;
+              font-size: 1.4em;
+            }
+
+            a {
+              padding-left: 15px;
+              font-family: 'Orbitron', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              color: #FFFFFF;
+            }
+
+          }
+
+        }
+
+        &__icon {
+          padding-top: 70px;
+
+          h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+          }
+
+          &--gen {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            svg {
+              margin-right: 20px;
+            }
+
+          }
+
+        }
+
+      }
+
+      &--two {
+        width: 60%;
+
+        h1 {
+          font-family: 'Orbitron', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin-bottom: 25px;
+        }
+
+        h4 {
+          font-family: 'Orbitron', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: #FFFFFF;
+          margin-bottom: 20px;
+        }
+
+        &__gen {
+          display: flex;
+          flex-direction: column;
+
+          &--input-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            input {
+              @extend %input;
+              width: 49%;
+            }
+          }
+
+          &__input {
+            textarea {
+              @extend %input;
+              width: 100%;
+            }
+          }
+
+        }
+
+
+        &__btn {
+          padding-top: 45px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          button {
+            padding: 12px 60px;
+            background: #9602A4;
+            border-radius: 4px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: #FFFFFF;
+            opacity: .8;
+            transition: .2s;
+
+            &:hover {
+              transform: scale(1.06);
+              color: #9602A4;
+              background: #ffffff;
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+
+#footer {
+  padding: 30px 0;
+  background: #0A0712;
+  backdrop-filter: blur(10px);
+
+  .footer--general {
+
+    &__text {
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-family: 'Orbitron', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+      }
+
+    }
+
+    &__line {
+      width: 99%;
+      height: 3px;
+      background: rgba(177, 2, 193, 0.13);
+    }
+
+    &__gen {
+      padding: 10% 0 7% 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &--logo {
+        img {
+          margin-bottom: 15px;
+        }
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            padding-left: 10px;
+            font-family: 'Orbitron', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            color: #FFFFFF;
+          }
+        }
+
+
+      }
+    }
+
   }
 }

@@ -57,6 +57,28 @@
 
 }
 @media (max-width: 1140px) {
+
+  .hero{
+    padding: 30px 0  0 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--items{
+      top: 0;
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+      align-items: center;
+      &--btn{
+        top: -20px;
+      }
+    }
+    &--img{
+
+    }
+  }
+
   .round{
     display: none;
   }
@@ -121,6 +143,33 @@
 
 @media (max-width: 768px) {
 
+  .hero--img{
+    transform: scale(0.6);
+  }
+
+  .about-us{
+    &--descriptions{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      &--1{
+        &--items{
+          text-align: center;
+        }
+      }
+      &--2{
+        width: 40%;
+        margin: 20px auto;
+        &--items{
+          text-align: center;
+        }
+        &--border{
+          display: none;
+        }
+      }
+    }
+  }
+
   #team {
     .team--general {
       &__gen {
@@ -140,9 +189,7 @@
         }
 
         &--items {
-
           margin-left: 19%;
-
         }
       }
     }
@@ -152,13 +199,11 @@
     .contact--general {
 
       &__gen {
+        display: flex;
         flex-direction: column;
 
         &--two {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
+          width: 95%;
 
           &__text {
             display: flex;
@@ -168,28 +213,6 @@
           }
 
           &__gen {
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            //div{
-            //  input{
-            //    width: 90%;
-            //  }
-            //}
-          }
-
-          &__in {
-            input {
-              width: 500px;
-              height: 47px;
-            }
-          }
-
-          &__input {
-            textarea {
-              width: 600px;
-              height: 200px
-            }
           }
 
         }
@@ -202,6 +225,14 @@
 }
 
 @media (max-width: 557px) {
+  .hero--img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    transform: scale(0.6);
+  }
 .services{
   &--items{
     margin: 0 auto;
@@ -220,6 +251,7 @@
   left: 0;
   right: 0;
   margin: 30px 0;
+  width: 90%;
 }
 
   #contact {
@@ -227,6 +259,16 @@
 
       &__gen {
         &--two {
+          &__gen{
+            &--input-group{
+              display: flex;
+              flex-direction: column;
+              input{
+                margin: 5px 0;
+                width: 100%;
+              }
+            }
+          }
 
 
           &__in {
@@ -307,7 +349,6 @@
     }
   }
 
-
   #tools {
     .tools--general {
 
@@ -354,11 +395,13 @@
 
     }
   }
-
-
 }
 
 @media (max-width: 451px) {
+
+  .services--items{
+    transform: scale(.8);
+  }
 
   #tools {
     .tools--general {
@@ -473,7 +516,9 @@
 }
 
 @media (max-width: 415px) {
-
+  .hero--img{
+    transform: scale(.5);
+  }
 }
 
 @media (max-width: 380px) {
@@ -485,6 +530,7 @@
 }
 
 @media (max-width: 320px) {
+
 
 
   #tools {

@@ -100,7 +100,6 @@ const Tools = () => {
                                         Redux
                                     </h1>
                                 </div>
-
                             </div>
                             <div className="tools--general__icon--items--block">
                                 <div>

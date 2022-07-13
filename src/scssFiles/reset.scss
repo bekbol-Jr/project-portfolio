@@ -34,13 +34,13 @@ ul,ol, li{
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(5px + 11 * (100vw / 1200));
   color: rgba(177, 2, 193, 0.5);
 }
 
 %title{
   Font-family: Orbitron, sans-serif;
-  font-size: 38px;
+  font-size: calc(15px + 23 * (100vw / 1200));  // 38px;
   color: white;
 }
 
@@ -49,7 +49,7 @@ ul,ol, li{
   font-family: 'Orbitron', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: calc(15px + 13 * (100vw / 1200));
   text-transform: uppercase;
   color: #FFFFFF;
   position: relative;

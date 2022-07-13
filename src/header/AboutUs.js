@@ -47,24 +47,28 @@ const AboutUs = () => {
                     </div>
 
                     <div className="about-us--descriptions">
-                        <div className="about-us--descriptions--items">
-                            <h4>How we work</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
-                        </div>
+                      <div className="about-us--descriptions--1">
+                          <div className="about-us--descriptions--1--items">
+                              <h4>How we work</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
+                          </div>
 
-                        <div className="about-us--descriptions--border"></div>
+                          <div className="about-us--descriptions--1--border"></div>
 
-                        <div className="about-us--descriptions--items">
-                            <h4>How we work</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
-                        </div>
+                          <div className="about-us--descriptions--1--items">
+                              <h4>How we work</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
+                          </div>
+                      </div>
 
-                        <div className="about-us--descriptions--border"></div>
+                       <div className="about-us--descriptions--2">
+                           <div className="about-us--descriptions--2--border"></div>
 
-                        <div className="about-us--descriptions--items">
-                            <h4>How we work</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
-                        </div>
+                           <div className="about-us--descriptions--2--items">
+                               <h4>How we work</h4>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa.</p>
+                           </div>
+                       </div>
                     </div>
 
                 </div>
