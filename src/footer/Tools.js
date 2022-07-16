@@ -14,6 +14,8 @@ import man from "../img/man.png"
 
 
 const Tools = () => {
+    
+
     return (
         <section id="tools">
             <div className="container">

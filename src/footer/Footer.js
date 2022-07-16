@@ -18,7 +18,7 @@ const Footer = () => {
 
 
                             <div>
-                                <a href="#"><AiOutlineMail/> youngdev’s@mail.com</a>
+                                <a><AiOutlineMail/> youngdev’s@mail.com</a>
                             </div>
 
                         </div>

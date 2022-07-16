@@ -15,6 +15,7 @@ const Services = () => {
                     </div>
                     <div className="services--items">
                         <div className="services--items--group1">
+
                             <div className="services--items--group1--top message" >
                                 <div className="services--items--group1--top--description">
                                     <img src={MessageLeft} alt=""/>
@@ -25,30 +26,33 @@ const Services = () => {
                                 </div>
                                 <img src={Round} alt="" className="round"/>
                             </div>
+
                             <div className="services--items--group1--bottom message">
+                                <img src={Round} alt="" className="round"/>
                                 <div className="services--items--group1--bottom--description">
-                                    <img src={MessageLeft} alt=""/>
+                                    <img src={MessageRight} alt=""/>
                                     <div className="services--items--group1--bottom--description--title">
-                                        <h3>Technical support</h3>
+                                        <h3>Website development</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
                                     </div>
                                 </div>
-                                <img src={Round} alt="" className="round"/>
                             </div>
+
                         </div>
                         <div className="services--items--conductor ">
                             <img src={Conductor} alt=""/>
                         </div>
                         <div className="services--items--group2">
+
                             <div className="services--items--group2--top message">
-                                <img src={Round} alt="" className="round"/>
                                 <div className="services--items--group2--top--description">
-                                    <img src={MessageRight} alt=""/>
+                                    <img src={MessageLeft} alt=""/>
                                     <div className="services--items--group2--top--description--title">
-                                        <h3>Website development</h3>
+                                        <h3>Technical support</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis massa, vitae adipiscing </p>
                                     </div>
                                 </div>
+                                <img src={Round} alt="" className="round"/>
                             </div>
 
                             <div className="services--items--group2--bottom message">
@@ -61,6 +65,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

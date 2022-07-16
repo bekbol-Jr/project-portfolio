@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=New+Tegomin&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
+body, html{
+  scroll-behavior: smooth;
+}
 body{
   background: url("../img/Bg-img.png") no-repeat center/cover;
   min-height: 100vh;
@@ -18,12 +20,11 @@ a, a:hover{
 }
 
 .container{
-
   width: 1170px;
   margin: 0 auto;
 }
 
-button , input{
+button, input{
   outline: none;
 }
 ul,ol, li{

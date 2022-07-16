@@ -35,7 +35,7 @@ const Contact = () => {
 
                                     <AiOutlineMail className="contact--general__gen--one__contact--general--phone"/>
 
-                                    <a href="#">youngdev’s@mail.com</a>
+                                    <a href="mailto:youngdevs@mail.com">youngdev’s@mail.com</a>
 
                                 </div>
 
@@ -60,12 +60,12 @@ const Contact = () => {
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M12 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3H12Z"
-                                            stroke="#5C0564" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round"/>
+                                            stroke="#5C0564" stroke-width="2" strokeLinecap="round"
+                                            strokeLinejoin="round"/>
                                         <path
                                             d="M12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8Z"
-                                            stroke="#5C0564" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round"/>
+                                            stroke="#5C0564" stroke-width="2" strokeLinecap="round"
+                                            strokeLinejoin="round"/>
                                         <path
                                             d="M17 8.5C17.8284 8.5 18.5 7.82843 18.5 7C18.5 6.17157 17.8284 5.5 17 5.5C16.1716 5.5 15.5 6.17157 15.5 7C15.5 7.82843 16.1716 8.5 17 8.5Z"
                                             fill="#5C0564"/>
@@ -82,8 +82,8 @@ const Contact = () => {
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M21 5L2 12.5L9 13.5M21 5L18.5 20L9 13.5M21 5L9 13.5M9 13.5V19L12.249 15.723"
-                                            stroke="#5C0564" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"/>
+                                            stroke="#5C0564" strokeWidth="1.5" strokeLinecap="round"
+                                            strokeLinejoin="round"/>
                                     </svg>
 
                                 </div>
