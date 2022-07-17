@@ -92,6 +92,17 @@
   .services--items{
     transform: scale(.8);
   }
+  .tools--general__icon{
+    &--man{
+      display: none;
+    }
+    &--items{
+      left: 0;
+      &--block{
+        transform: scale(.5);
+      }
+    }
+  }
 
 
   #team {
@@ -249,7 +260,11 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin: 0 auto;
+    position: relative;
+    left: -40px;
     &--conductor{
+      margin: 0 auto;
       //display: none;
     }
     &--group1{
@@ -264,11 +279,12 @@
   }
 }
   .message{
-    //position: relative;
+    position: relative;
     left: 0;
     right: 0;
     margin: 10px 0;
-    //width: 90%;
+    width: 90%;
+
   }
 
 
@@ -309,7 +325,6 @@
 
     }
   }
-
 
   #portfolio {
     .portfolio--general {
@@ -418,7 +433,8 @@
 @media (max-width: 451px) {
 
   .services--items{
-    transform: scale(.8);
+    transform: scale(.7);
+    left: -60px;
   }
 
   #tools {
@@ -536,6 +552,9 @@
 @media (max-width: 415px) {
   .hero--img{
     transform: scale(.5);
+  }
+  .services--items{
+    transform: scale(.6);
   }
 }
 

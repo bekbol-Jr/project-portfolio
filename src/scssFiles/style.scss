@@ -429,8 +429,7 @@
     &--items {
       display: flex;
       flex-direction: column;
-      //justify-content: space-between;
-      position: relative;
+      //position: relative;
       &--group1 {
         display: flex;
         position: relative;
@@ -444,7 +443,7 @@
           align-items: center;
 
           &--description {
-            width: 95%;
+            //width: 95%;
             position: relative;
 
             &--title {
