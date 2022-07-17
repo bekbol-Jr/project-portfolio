@@ -438,7 +438,7 @@
 
         &--top {
           position: absolute;
-          bottom: 0;
+          top: 120px;
           left: 27px;
           display: flex;
           align-items: center;
@@ -515,11 +515,12 @@
       &--group2 {
         display: flex;
         position: relative;
+        z-index: 3;
 
         &--top {
           position: absolute;
-          //top: -14.5%;
-          //right: 24px;
+          top: -50px;
+          left: 24px;
           display: flex;
           align-items: center;
 
@@ -553,7 +554,7 @@
 
         &--bottom {
           position: absolute;
-          //bottom: 18.5%;
+          bottom: 96px;
           right: 25px;
           display: flex;
           align-items: center;
