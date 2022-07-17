@@ -93,13 +93,14 @@
     transform: scale(.8);
   }
   .tools--general__icon{
+    transform: scale(.8);
     &--man{
-      display: none;
+      //display: none;
     }
     &--items{
       left: 0;
       &--block{
-        transform: scale(.5);
+        //transform: scale(.5);
       }
     }
   }
