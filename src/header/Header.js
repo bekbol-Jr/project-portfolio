@@ -15,7 +15,6 @@ const Header = () => {
 
     return (
         <section id="header">
-
             <div
                 style={{
                     transform: burger? "translateY(0)" : "translateY(-500px)"

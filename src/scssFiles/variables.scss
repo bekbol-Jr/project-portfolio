@@ -231,6 +231,7 @@
 
 
     &__icon {
+      //width: 80%;
       padding-top: 66px;
       display: flex;
       justify-content: space-between;
@@ -251,10 +252,10 @@
 
         &--block {
           padding: 10px;
-          width: 80px;
-          margin: 10px 20px;
+          width: 110px;
+          margin: 20px;
           background: rgba(95, 166, 192, 0);
-          transform: scale(.6);
+          transform: scale(.8);
           display: flex;
           flex-direction: column;
           align-items: center;

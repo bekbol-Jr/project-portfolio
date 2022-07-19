@@ -27,7 +27,7 @@ const Contact = () => {
 
                                     <BiPhoneCall className="contact--general__gen--one__contact--general--phone"/>
 
-                                    <a href="tel:996709346587">+996709346587</a>
+                                    <a href="tel:+996704247027">+996704247027</a>
 
                                 </div>
 

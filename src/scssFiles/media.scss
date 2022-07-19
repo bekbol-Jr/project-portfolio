@@ -67,7 +67,7 @@
     &--items{
       top: 0;
       margin: 0 auto;
-      width: 50%;
+      max-width: 60%;
       text-align: center;
       align-items: center;
       &--btn{
@@ -88,14 +88,20 @@
   }
 }
 @media (max-width: 1024px) {
-
   .services--items{
-    transform: scale(.8);
+    margin: 0 auto;
+    &--group{
+      display: flex;
+      flex-direction: column;
+      &--box{
+
+      }
+    }
   }
   .tools--general__icon{
     transform: scale(.8);
     &--man{
-      //display: none;
+      display: none;
     }
     &--items{
       left: 0;
@@ -159,18 +165,24 @@
 
 @media (max-width: 768px) {
 
-
-  .services{
-    &--titles{
-      margin-bottom: 10%;
-    }
-  }
-
   .hero--img{
     transform: scale(0.6);
   }
 
   .about-us{
+    &--images{
+      display: flex;
+      flex-direction: column;
+      &--team-work{
+        width: 100%;
+      }
+      &--group{
+        width: 100%;
+        &--1{
+          margin: 20px 0;
+        }
+      }
+    }
     &--descriptions{
       display: flex;
       flex-wrap: wrap;
@@ -255,37 +267,6 @@
     align-items: center;
     width: 60%;
     transform: scale(0.6);
-  }
-.services{
-  &--items{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 0 auto;
-    position: relative;
-    left: -40px;
-    &--conductor{
-      margin: 0 auto;
-      //display: none;
-    }
-    &--group1{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 30px;
-    }
-    &--group2{
-      display: flex;
-      flex-direction: column;
-    }
-  }
-}
-  .message{
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: 10px 0;
-    width: 90%;
-
   }
 
 
@@ -433,10 +414,6 @@
 
 @media (max-width: 451px) {
 
-  .services--items{
-    transform: scale(.7);
-    left: -60px;
-  }
 
   #tools {
     .tools--general {
@@ -527,6 +504,30 @@
 
 @media (max-width: 425px) {
 
+  .about-us{
+    &--descriptions{
+      //display: flex;
+      //flex-wrap: wrap;
+      //align-items: center;
+      &--1{
+        display: flex;
+        flex-direction: column;
+        &--items{
+          margin: 20px 0 0 0;
+        }
+        &--border{
+          display: none;
+        }
+      }
+      &--2{
+        width: 160%;
+      }
+    }
+  }
+  .hero--items{
+    width: 100%;
+  }
+
 
 
   #tools {
@@ -554,17 +555,6 @@
   .hero--img{
     transform: scale(.5);
   }
-  .services--items{
-    transform: scale(.6);
-  }
-}
-
-@media (max-width: 380px) {
-
-}
-
-@media (max-width: 376px) {
-
 }
 
 @media (max-width: 320px) {
