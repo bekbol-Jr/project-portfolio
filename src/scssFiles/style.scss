@@ -115,11 +115,30 @@
 
 //----HERO----//
 #hero  {
+  //position: relative;
+  .scroll-up{
+    font-size: 20px;
+    color: red;
+    background: yellow;
+    padding: 15px 20px;
+    border-radius: 50%;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    z-index: 8;
+    opacity: .8;
+    transition: .2s;
+    &:active{
+      background: red;
+      color: yellow;
+    }
+  }
 
   .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    //position: relative;
 
     &--items {
       top: 0;
@@ -170,6 +189,90 @@
 }
 //----HERO----//
 
+// MODAL
+.modal{
+  position: absolute;
+  z-index: 9;
+  background: #040315;
+  opacity: .98;
+  padding:3%  5%;
+  transition: .2s;
+  width: 50%;
+
+  &--container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    &--icon{
+      color: white;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .cross{
+        color: white;
+        font-size: 2rem;
+        opacity: .7;
+        transition: .2s;
+        &:hover{
+          color: red;
+          transform: scale(1.3);
+        }
+      }
+    }
+    &--title{
+      margin: 15px 10px;
+      color: white;
+      font-family: Orbitron,sans-serif;
+      font-size: 1rem;
+      @extend %description,
+    }
+    &--input-group{
+      display: flex;
+      justify-content: space-between;
+      &--1{
+        background: rgba(255, 255, 255, 0.1);
+        margin-right: 10px;
+        border: none;
+        @extend  %input,
+      }
+      &--2{
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        margin-left: 10px;
+        @extend  %input,
+      }
+    }
+    &--submit-group{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &--input{
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        margin: 20px 0;
+        width: 100%;
+        @extend %input,
+      }
+      &--btn{
+        background: #9602A4;
+        padding: 10px 15%;
+        border: none;
+        color: white;
+        font-family: Orbitron,sans-serif;
+        transition: .1s;
+        &:active{
+          background: white;
+          color: #9602A4;
+        }
+      }
+    }
+  }
+}
+// MODAL
+
 
 //----ABOUT_US-----//
 #about-us {
@@ -184,8 +287,6 @@
         flex-direction: column;
 
         &--title {
-          display: flex;
-          flex-wrap: nowrap;
           @extend %theme;
 
           &:before {
